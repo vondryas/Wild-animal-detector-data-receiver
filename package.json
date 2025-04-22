@@ -1,0 +1,48 @@
+{
+  "name": "wild_animal_detection",
+  "productName": "wild_animal_detection",
+  "description": "A simple data downloader of wild animal detection from TTN by MQTT",
+  "keywords": [
+    "mqtt",
+    "ttn",
+    "wild-animal-detection",
+    "electron"
+  ],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Štěpán Vondráček",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.xvondr27.wild_animal_receiver",
+    "productName": "Wild Animal data receiver",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "portable",
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "dependencies": {
+    "keytar": "^7.9.0",
+    "mqtt": "5.11.0"
+  },
+  "devDependencies": {
+    "electron": "35.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}
