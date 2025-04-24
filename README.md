@@ -6,7 +6,7 @@ A desktop application built with Electron to receive and display data from a pho
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) (recommended version: 18+)
+- [Node.js](https://nodejs.org/) (recommended version: 20+) with npm
 - [Git](https://git-scm.com/)
 - [The Things Stack account](https://console.thethingsnetwork.org/) and have created application
 - MQTT access from TTN (see below)
@@ -16,7 +16,7 @@ A desktop application built with Electron to receive and display data from a pho
 
 ## Installation and Running
 
-Tested on Windows 11 x64.
+Tested on Windows 11 on other systems see electron documentation.
 
 Clone the repository:
 
@@ -106,7 +106,7 @@ Example: `00 02 01 03` → 2× Doe, 3× Wild Boar
 
 ---
 
-## Technologies
+## Used Technologies
 
 - Electron
 - MQTT.js
