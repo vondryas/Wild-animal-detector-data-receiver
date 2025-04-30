@@ -47,7 +47,7 @@ Should generate application for linux and macOS as well, but it is not tested.
 
 ---
 
-## 📡 What the app does
+## What the app does
 
 - Connects to TTN MQTT broker and listens for uplink messages
 - Parses animal detection data (`1x Doe, 2x Wild Boar`)
