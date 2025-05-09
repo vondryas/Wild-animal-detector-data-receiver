@@ -1,6 +1,6 @@
 # Wild Animal Detection TTN Data Receiver
 
-A desktop application built with Electron to receive and display data from a photo trap connected via [The Things Network (TTN)](https://www.thethingsnetwork.org/), using MQTT. It is used to monitor wildlife detection events (e.g., does and wild boars) sent by the device. Device code is available in [ESP32-wild-animal-detector](https://github.com/vondryas/ESP32-wild-animal-detector) repository.
+A desktop application built with Electron to receive and display data from a camera trap connected via [The Things Network (TTN)](https://www.thethingsnetwork.org/), using MQTT. It is used to monitor wildlife detection events (e.g., does and wild boars) sent by the device. Device code is available in [ESP32-wild-animal-detector](https://github.com/vondryas/ESP32-wild-animal-detector) repository.
 
 ---
 
@@ -63,7 +63,7 @@ Show only data that are received after the app is started. The app does not stor
 1. Open the app
 2. Enter:
    - **MQTT Broker**: e.g., `mqtts://eu1.cloud.thethings.network`
-   - **Username**: `application-id@tenant-id` (e.g., `photo-trap@ttn`)
+   - **Username**: `application-id@tenant-id` (e.g., `camera-trap@ttn`)
    - **Password**: Your TTN **API Key** with permission `Read application traffic`
 3. Click **Connect**
 
@@ -81,7 +81,7 @@ If successful, the app will display connected status and start receiving data.
 1. Sign in at [TTN Console](https://console.thethingsnetwork.org/)
 2. Click **Create application**
    - Fill in `Application ID`, `Name`, `Region`
-3. Add a device (e.g., `esp32-s3-eye-photo-trap`) that sends uplink messages
+3. Add a device (e.g., `esp32-s3-eye-camera-trap`) that sends uplink messages
    - Fill in EUI, Join EUI, etc.
    - This part is covered in the device code repository [ESP32-wild-animal-detector](https://github.com/vondryas/ESP32-wild-animal-detector)
 
