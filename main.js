@@ -1,3 +1,5 @@
+// author: Stepan Vondracek (xvondr27)
+
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 

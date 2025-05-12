@@ -1,3 +1,5 @@
+// author: Stepan Vondracek (xvondr27)
+
 let config = {
     broker: "",
     username: "",

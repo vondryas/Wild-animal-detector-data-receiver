@@ -18,11 +18,7 @@ A desktop application built with Electron to receive and display data from a cam
 
 Tested on Windows 11 on other systems see electron documentation.
 
-Clone the repository:
-
-```bash
-git clone https://github.com/vondryas/Wild-animal-detector-data-receiver.git
-```
+Node.js with npm is required to run the app. If you don't have it installed, download and install it from the [Node.js website](https://nodejs.org/).
 
 Inside root folder of the project:
 

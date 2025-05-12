@@ -1,3 +1,5 @@
+// author: Stepan Vondracek (xvondr27)
+
 const { contextBridge } = require('electron');
 const keytar = require('keytar');
 const mqtt = require('mqtt');
